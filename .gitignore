@@ -1,0 +1,18 @@
+# OS System Caches
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Web & Build Artifacts
+node_modules/
+dist/
+build/
+.cache/
+*.log
+*.tmp
