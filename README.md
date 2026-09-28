@@ -11,3 +11,5 @@ Built strictly with **pure HTML5 and CSS3** — zero JavaScript runtime, zero CS
 - `ETH / USDT` — Ethereum Spot ($2,487.16)
 - `SOL / USDT` — Solana Spot ($153.42)
 - `XRP / USDT` — Ripple Spot ($0.6248)
+
+- Base token system initialized

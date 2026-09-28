@@ -1,0 +1,120 @@
+/* ==========================================================================
+   NORTHLINE MARKETS — DELTA EXCHANGE-INSPIRED SPOT TRADING WORKSPACE
+   High-Density, Institutional Financial Terminal Prototype
+   Engineered strictly in pure HTML5 & CSS3.
+   Zero JavaScript. Zero external frameworks. Zero AI-slop tropes.
+   - Docked multi-pane terminal grid (Chart + Order Book DOM + Order Ticket)
+   - Real Order Book with Bid/Ask cumulative depth bars and spread indicator
+   - High information density, micro-radii (2px-4px), hairline 1px structural rules
+   - Tabular monospace numbers (IBM Plex Mono) with right alignment
+   - Authentic financial status indicators, order types, and execution ledger
+   ========================================================================== */
+
+/* 1. TYPOGRAPHY IMPORT & FALLBACKS */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* 2. DESIGN TOKENS (Delta Exchange / Institutional Dark Palette) */
+:root {
+  /* Terminal Core Surfaces */
+  --bg: #0d110e;
+  --surface: #131815;
+  --surface-raised: #18201b;
+  --surface-hover: #1e2721;
+  --surface-active: #25312a;
+  
+  /* Hairline Precision Borders */
+  --border: #232c25;
+  --border-strong: #323e35;
+  --border-subtle: #19201a;
+
+  /* Typography Colors */
+  --text-primary: #edf1eb;
+  --text-secondary: #9da89f;
+  --text-muted: #6f7a71;
+  --text-dim: #4d574f;
+
+  /* Accent & Brand (Restrained Financial Sage) */
+  --accent: #b7c6a5;
+  --accent-hover: #c7d2b8;
+  --accent-text: #111713;
+  --accent-dim: rgba(183, 198, 165, 0.15);
+
+  /* Financial Market Direction Colors */
+  --buy-green: #4ea87d;
+  --buy-green-bg: rgba(78, 168, 125, 0.12);
+  --buy-green-depth: rgba(78, 168, 125, 0.18);
+  --buy-hover: #5bbd8e;
+
+  --sell-red: #d16b65;
+  --sell-red-bg: rgba(209, 107, 101, 0.12);
+  --sell-red-depth: rgba(209, 107, 101, 0.18);
+  --sell-hover: #e07771;
+
+  --warning: #c8b17e;
+  --warning-bg: rgba(200, 177, 126, 0.12);
+
+  /* Micro Corner Radii (Terminal standard: crisp 2-4px, zero bubbly curves) */
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius-md: 5px;
+
+  /* Typography Stacks */
+  --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: 'IBM Plex Mono', "SF Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+  /* Snappy Institutional Easing Curves */
+  --ease-terminal: cubic-bezier(0.16, 1, 0.3, 1);
+  --trans-fast: 110ms var(--ease-terminal);
+  --trans-normal: 160ms var(--ease-terminal);
+
+  /* Workspace Layout Dimensions */
+  --max-content-width: 1480px;
+  --header-height: 52px;
+  --ticker-height: 38px;
+}
+
+/* 3. RESET & BASE */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px; /* Professional high-density terminal baseline */
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.45;
+  display: flex;
+  flex-direction: column;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
