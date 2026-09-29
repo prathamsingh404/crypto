@@ -124,3 +124,8 @@ input, select {
   color: inherit;
   background: none;
   border: none;
+}
+
+ul, ol {
+  list-style: none;
+}
