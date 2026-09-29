@@ -134,3 +134,8 @@ ul, ol {
   font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
 }
+
+.pos { color: var(--buy-green) !important; }
+.neg { color: var(--sell-red) !important; }
+.muted { color: var(--text-muted); }
+.sec { color: var(--text-secondary); }
