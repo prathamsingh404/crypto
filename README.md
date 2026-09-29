@@ -12,4 +12,4 @@ Built strictly with **pure HTML5 and CSS3** — zero JavaScript runtime, zero CS
 - `SOL / USDT` — Solana Spot ($153.42)
 - `XRP / USDT` — Ripple Spot ($0.6248)
 
-<!-- build-step: 4 -->
+<!-- build-step: 5 -->
