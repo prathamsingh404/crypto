@@ -129,3 +129,8 @@ input, select {
 ul, ol {
   list-style: none;
 }
+
+.mono, .tabular-nums, [data-mono] {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
