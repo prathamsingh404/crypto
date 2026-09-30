@@ -144,3 +144,8 @@ ul, ol {
 .env-notice-strip {
   background-color: #0b0f0c;
   border-bottom: 1px solid var(--border-subtle);
+  padding: 4px var(--space-16, 16px);
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
