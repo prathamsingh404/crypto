@@ -139,3 +139,8 @@ ul, ol {
 .neg { color: var(--sell-red) !important; }
 .muted { color: var(--text-muted); }
 .sec { color: var(--text-secondary); }
+
+/* 4. ENVIRONMENT AUDIT STRIP */
+.env-notice-strip {
+  background-color: #0b0f0c;
+  border-bottom: 1px solid var(--border-subtle);
