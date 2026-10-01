@@ -170,3 +170,8 @@ ul, ol {
 /* 5. MAIN NAVIGATION (Delta Exchange Style Compact Topbar) */
 .main-header {
   height: var(--header-height);
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
