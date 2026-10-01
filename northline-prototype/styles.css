@@ -175,3 +175,8 @@ ul, ol {
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+.header-container {
+  max-width: var(--max-content-width);
+  height: 100%;
