@@ -165,3 +165,8 @@ ul, ol {
   border-radius: 50%;
   background-color: var(--warning);
   display: inline-block;
+}
+
+/* 5. MAIN NAVIGATION (Delta Exchange Style Compact Topbar) */
+.main-header {
+  height: var(--header-height);
