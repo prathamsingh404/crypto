@@ -543,3 +543,9 @@ ul, ol {
 .ledger-sub-text {
   font-size: 11.5px;
   color: var(--text-secondary);
+}
+
+/* 9. MODULAR TERMINAL PANELS */
+.terminal-panel, .section-panel {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
