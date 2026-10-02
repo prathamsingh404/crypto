@@ -462,3 +462,10 @@ ul, ol {
 }
 
 .ledger-bay:hover {
+  background-color: var(--surface-hover);
+}
+
+.ledger-bay.primary-bay {
+  background-color: var(--surface-raised);
+}
+
