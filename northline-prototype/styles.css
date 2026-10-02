@@ -499,3 +499,10 @@ ul, ol {
   font-size: 10px;
   color: var(--accent);
   background-color: #1c251e;
+  padding: 1px 5px;
+  border-radius: var(--radius-xs);
+  border: 1px solid rgba(183, 198, 165, 0.25);
+}
+
+.ledger-val-primary {
+  font-family: var(--font-mono);
