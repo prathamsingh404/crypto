@@ -598,3 +598,9 @@ ul, ol {
   margin-bottom: 12px;
   align-items: stretch;
 }
+
+/* Market Header Strip (Delta Style Selected Contract Strip) */
+.market-contract-strip {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
