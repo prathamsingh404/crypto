@@ -512,3 +512,9 @@ ul, ol {
   color: var(--text-primary);
   line-height: 1.1;
   margin-bottom: 4px;
+}
+
+.ledger-val-stat {
+  font-family: var(--font-mono);
+  font-size: 26px;
+  font-weight: 600;
