@@ -604,3 +604,9 @@ ul, ol {
   background-color: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-xs);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
