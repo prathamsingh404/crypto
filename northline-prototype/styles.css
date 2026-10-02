@@ -450,3 +450,9 @@ ul, ol {
 .ledger-bay {
   padding: 16px 20px;
   border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: background-color var(--trans-fast);
+}
