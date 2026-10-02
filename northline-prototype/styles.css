@@ -617,3 +617,9 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.contract-title {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
