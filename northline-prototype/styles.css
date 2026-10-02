@@ -580,3 +580,9 @@ ul, ol {
   font-weight: 500;
   color: var(--accent);
   display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: color var(--trans-fast);
+}
+
+.section-action-link:hover {
