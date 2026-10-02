@@ -352,3 +352,9 @@ ul, ol {
   padding: 0 16px;
   height: 100%;
   display: flex;
+  align-items: center;
+}
+
+.ticker-item {
+  display: flex;
+  align-items: center;
