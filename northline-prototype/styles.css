@@ -530,3 +530,9 @@ ul, ol {
   font-weight: 600;
   padding: 2px 6px;
   border-radius: var(--radius-xs);
+  background-color: var(--buy-green-bg);
+  border: 1px solid rgba(78, 168, 125, 0.25);
+}
+
+.ledger-currency-label {
+  font-family: var(--font-mono);
