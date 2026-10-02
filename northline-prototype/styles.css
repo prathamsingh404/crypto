@@ -635,3 +635,9 @@ ul, ol {
   font-weight: 600;
   color: var(--accent);
   background-color: var(--accent-dim);
+  border: 1px solid rgba(183, 198, 165, 0.3);
+  padding: 1px 5px;
+  border-radius: var(--radius-xs);
+}
+
+.contract-ltp-group {
