@@ -339,3 +339,9 @@ ul, ol {
 
 /* 6. COMPACT MARKET TICKER */
 .market-ticker-bar {
+  background-color: #101411;
+  border-bottom: 1px solid var(--border);
+  height: var(--ticker-height);
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
