@@ -364,3 +364,9 @@ ul, ol {
   font-size: 12px;
   border-right: 1px solid var(--border);
   white-space: nowrap;
+  transition: background-color var(--trans-fast);
+}
+
+.ticker-item:first-child {
+  padding-left: 0;
+}
