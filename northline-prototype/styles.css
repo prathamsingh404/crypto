@@ -493,3 +493,9 @@ ul, ol {
   text-transform: uppercase;
   color: var(--text-muted);
 }
+
+.ledger-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--accent);
+  background-color: #1c251e;
