@@ -549,3 +549,9 @@ ul, ol {
 .terminal-panel, .section-panel {
   background-color: var(--surface);
   border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.panel-header-bar {
