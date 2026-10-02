@@ -401,3 +401,9 @@ ul, ol {
   margin: 0 auto;
   padding: 16px 16px 40px;
 }
+
+/* Page Header Block */
+.page-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
