@@ -444,3 +444,9 @@ ul, ol {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr;
   margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.ledger-bay {
+  padding: 16px 20px;
+  border-right: 1px solid var(--border);
