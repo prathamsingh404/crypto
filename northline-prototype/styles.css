@@ -395,3 +395,9 @@ ul, ol {
 
 /* 7. APP MAIN WORKSPACE CONTAINER */
 .app-main {
+  flex: 1;
+  max-width: var(--max-content-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px 16px 40px;
+}
