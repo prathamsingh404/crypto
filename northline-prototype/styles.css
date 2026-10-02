@@ -456,3 +456,9 @@ ul, ol {
   position: relative;
   transition: background-color var(--trans-fast);
 }
+
+.ledger-bay:last-child {
+  border-right: none;
+}
+
+.ledger-bay:hover {
