@@ -419,3 +419,10 @@ ul, ol {
   letter-spacing: -0.02em;
   color: var(--text-primary);
   line-height: 1.15;
+}
+
+.page-subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 3px;
+}
