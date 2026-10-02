@@ -586,3 +586,9 @@ ul, ol {
 }
 
 .section-action-link:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* 10. DELTA EXCHANGE STYLE MULTI-PANE TRADING WORKSPACE GRID */
+.delta-trading-grid {
