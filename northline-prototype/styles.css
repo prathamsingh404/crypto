@@ -518,3 +518,9 @@ ul, ol {
   font-family: var(--font-mono);
   font-size: 26px;
   font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  line-height: 1.15;
+  margin-bottom: 4px;
+}
+
