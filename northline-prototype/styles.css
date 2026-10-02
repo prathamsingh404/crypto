@@ -382,3 +382,10 @@ ul, ol {
 }
 
 .ticker-price {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+.ticker-change {
+  font-family: var(--font-mono);
