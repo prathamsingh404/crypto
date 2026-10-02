@@ -481,3 +481,9 @@ ul, ol {
 
 .ledger-label-row {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.ledger-label {
