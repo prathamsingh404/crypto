@@ -561,3 +561,9 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
+}
+
+.panel-title-text {
+  font-size: 12px;
+  font-weight: 600;
