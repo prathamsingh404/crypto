@@ -370,3 +370,9 @@ ul, ol {
 .ticker-item:first-child {
   padding-left: 0;
 }
+
+.ticker-item:hover {
+  background-color: var(--surface-hover);
+}
+
+.ticker-pair {
