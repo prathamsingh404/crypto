@@ -426,3 +426,9 @@ ul, ol {
   color: var(--text-secondary);
   margin-top: 3px;
 }
+
+.header-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
