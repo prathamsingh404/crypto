@@ -536,3 +536,10 @@ ul, ol {
 
 .ledger-currency-label {
   font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-muted);
+}
+
+.ledger-sub-text {
+  font-size: 11.5px;
+  color: var(--text-secondary);
