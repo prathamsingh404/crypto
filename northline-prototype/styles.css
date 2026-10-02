@@ -592,3 +592,9 @@ ul, ol {
 
 /* 10. DELTA EXCHANGE STYLE MULTI-PANE TRADING WORKSPACE GRID */
 .delta-trading-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 52%) minmax(280px, 24%) minmax(300px, 24%);
+  gap: 10px;
+  margin-bottom: 12px;
+  align-items: stretch;
+}
