@@ -438,3 +438,9 @@ ul, ol {
 
 /* 8. INSTITUTIONAL FINANCIAL LEDGER BAR (Delta Exchange Account Matrix) */
 .account-ledger-bar {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  margin-bottom: 16px;
