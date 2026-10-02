@@ -629,3 +629,9 @@ ul, ol {
   gap: 8px;
 }
 
+.contract-tag-spot {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  background-color: var(--accent-dim);
