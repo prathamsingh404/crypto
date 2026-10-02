@@ -475,3 +475,9 @@ ul, ol {
   top: 0;
   left: 0;
   right: 0;
+  height: 2px;
+  background-color: var(--accent);
+}
+
+.ledger-label-row {
+  display: flex;
