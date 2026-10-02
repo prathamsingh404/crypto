@@ -345,3 +345,10 @@ ul, ol {
   overflow-x: auto;
   scrollbar-width: thin;
 }
+
+.ticker-container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 16px;
+  height: 100%;
+  display: flex;
