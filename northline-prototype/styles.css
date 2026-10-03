@@ -697,3 +697,10 @@ ul, ol {
   background-color: #111512;
   border-bottom: 1px solid var(--border);
   padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.chart-tools-left {
