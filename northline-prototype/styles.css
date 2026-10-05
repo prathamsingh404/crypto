@@ -741,3 +741,9 @@ ul, ol {
   padding-left: 8px;
   border-left: 1px solid var(--border);
 }
+
+.candlestick-stage {
+  flex: 1;
+  position: relative;
+  background-color: #0d110e;
+  display: flex;
