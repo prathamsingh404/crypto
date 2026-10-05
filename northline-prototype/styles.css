@@ -747,3 +747,9 @@ ul, ol {
   position: relative;
   background-color: #0d110e;
   display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chart-body-area {
+  flex: 1;
