@@ -722,3 +722,9 @@ ul, ol {
 .period-btn:hover {
   color: var(--text-primary);
   background-color: var(--surface-hover);
+}
+
+.period-btn.active {
+  background-color: var(--border-strong);
+  color: var(--text-primary);
+  font-weight: 600;
