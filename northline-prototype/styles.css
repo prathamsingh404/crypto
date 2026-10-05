@@ -753,3 +753,9 @@ ul, ol {
 
 .chart-body-area {
   flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.chart-plot-area {
+  flex: 1;
