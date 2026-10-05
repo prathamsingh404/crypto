@@ -716,3 +716,9 @@ ul, ol {
   padding: 3px 7px;
   color: var(--text-secondary);
   border-radius: var(--radius-xs);
+  transition: all var(--trans-fast);
+}
+
+.period-btn:hover {
+  color: var(--text-primary);
+  background-color: var(--surface-hover);
