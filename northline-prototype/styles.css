@@ -1232,3 +1232,8 @@ ul, ol {
 }
 
 /* Execution Cost Matrix */
+.order-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #101411;
