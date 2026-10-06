@@ -1093,3 +1093,8 @@ ul, ol {
   padding: 2px;
   gap: 2px;
 }
+
+.ticket-side-btn {
+  padding: 7px 0;
+  font-size: 12px;
+  font-weight: 700;
