@@ -849,3 +849,8 @@ ul, ol {
   position: absolute;
   width: 80%;
   max-width: 8px;
+  min-width: 3px;
+  border-radius: 1px;
+  z-index: 2;
+}
+
