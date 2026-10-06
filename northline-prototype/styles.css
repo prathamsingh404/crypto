@@ -1342,3 +1342,8 @@ ul, ol {
 .console-tab-btn.active {
   color: var(--text-primary);
   border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+.tab-badge {
+  font-size: 10px;
