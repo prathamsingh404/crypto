@@ -1203,3 +1203,8 @@ ul, ol {
 .percentage-presets {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+
+.preset-btn {
+  font-family: var(--font-mono);
