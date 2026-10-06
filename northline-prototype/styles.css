@@ -729,3 +729,8 @@ ul, ol {
   color: var(--text-primary);
   font-weight: 600;
 }
+
+.chart-studies-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
