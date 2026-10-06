@@ -1108,3 +1108,7 @@ ul, ol {
 .ticket-side-btn.buy.active {
   background-color: var(--buy-green);
   color: #0e1711;
+}
+
+.ticket-side-btn.sell {
+  color: var(--text-muted);
