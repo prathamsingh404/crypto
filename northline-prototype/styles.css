@@ -863,3 +863,8 @@ ul, ol {
 .candle-unit.bearish .candle-body {
   background-color: var(--sell-red);
 }
+
+.candle-unit:hover .candle-wick,
+.candle-unit:hover .candle-body {
+  filter: brightness(1.3);
+}
