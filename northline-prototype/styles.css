@@ -1362,3 +1362,7 @@ ul, ol {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
+  font-size: 12.5px;
+}
+
+.financial-table th {
