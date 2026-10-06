@@ -1247,3 +1247,7 @@ ul, ol {
   align-items: center;
   justify-content: space-between;
   font-size: 11px;
+  color: var(--text-muted);
+}
+
+.breakdown-val {
