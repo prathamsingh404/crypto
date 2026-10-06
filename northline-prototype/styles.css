@@ -1256,3 +1256,8 @@ ul, ol {
   font-weight: 500;
 }
 
+.breakdown-row.total {
+  border-top: 1px dashed var(--border);
+  padding-top: 6px;
+  margin-top: 2px;
+  color: var(--text-primary);
