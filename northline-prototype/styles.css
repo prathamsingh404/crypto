@@ -1338,3 +1338,7 @@ ul, ol {
 .console-tab-btn:hover {
   color: var(--text-primary);
 }
+
+.console-tab-btn.active {
+  color: var(--text-primary);
+  border-bottom-color: var(--accent);
