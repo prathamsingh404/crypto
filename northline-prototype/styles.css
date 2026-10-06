@@ -1328,3 +1328,8 @@ ul, ol {
   font-size: 11.5px;
   font-weight: 500;
   color: var(--text-muted);
+  border-bottom: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color var(--trans-fast);
