@@ -1318,3 +1318,8 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: 4px;
+  height: 100%;
+}
+
+.console-tab-btn {
+  height: 100%;
