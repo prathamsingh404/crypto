@@ -844,3 +844,8 @@ ul, ol {
   background-color: var(--text-muted);
   z-index: 1;
 }
+
+.candle-body {
+  position: absolute;
+  width: 80%;
+  max-width: 8px;
