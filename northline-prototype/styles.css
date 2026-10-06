@@ -1141,3 +1141,8 @@ ul, ol {
   background-color: var(--surface-raised);
   font-weight: 600;
 }
+
+.ticket-balance-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
