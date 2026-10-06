@@ -825,3 +825,8 @@ ul, ol {
   align-items: stretch;
   justify-content: space-between;
   gap: 2px;
+  z-index: 4;
+}
+
+.candle-unit {
+  flex: 1;
