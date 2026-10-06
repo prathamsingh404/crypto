@@ -1285,3 +1285,8 @@ ul, ol {
   user-select: none;
 }
 
+.btn-primary-order:hover {
+  background-color: var(--buy-hover);
+}
+
+.order-disclaimer {
