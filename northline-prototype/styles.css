@@ -1218,3 +1218,8 @@ ul, ol {
   color: var(--text-secondary);
   transition: all var(--trans-fast);
 }
+
+.preset-btn:hover {
+  background-color: var(--surface-hover);
+  color: var(--text-primary);
+  border-color: var(--border-strong);
