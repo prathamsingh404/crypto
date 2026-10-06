@@ -1410,3 +1410,7 @@ ul, ol {
 /* Asset Badge (Authentic Terminal Symbol Box) */
 .asset-identity {
   display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
