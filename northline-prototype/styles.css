@@ -1381,3 +1381,8 @@ ul, ol {
   padding: 10px 12px;
   border-bottom: 1px solid var(--border);
   color: var(--text-primary);
+  vertical-align: middle;
+  transition: background-color var(--trans-fast);
+}
+
+.financial-table tbody tr:last-child td {
