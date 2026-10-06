@@ -1136,3 +1136,8 @@ ul, ol {
   border-radius: var(--radius-xs);
 }
 
+.ticket-type-btn.active {
+  color: var(--text-primary);
+  background-color: var(--surface-raised);
+  font-weight: 600;
+}
