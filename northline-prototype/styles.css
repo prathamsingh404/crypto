@@ -719,3 +719,8 @@ ul, ol {
   transition: all var(--trans-fast);
 }
 
+.period-btn:hover {
+  color: var(--text-primary);
+  background-color: var(--surface-hover);
+}
+
