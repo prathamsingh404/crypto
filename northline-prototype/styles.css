@@ -1395,3 +1395,8 @@ ul, ol {
 
 .financial-table tbody tr:hover td:first-child {
   box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.financial-table th.align-right,
+.financial-table td.align-right {
+  text-align: right;
