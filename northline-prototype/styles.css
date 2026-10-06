@@ -897,3 +897,7 @@ ul, ol {
   height: 42px;
   border-top: 1px solid rgba(35, 44, 37, 0.6);
   background-color: rgba(13, 17, 14, 0.8);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 8px;
