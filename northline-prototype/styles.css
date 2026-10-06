@@ -1227,3 +1227,8 @@ ul, ol {
 
 .preset-btn.active {
   background-color: var(--border-strong);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Execution Cost Matrix */
