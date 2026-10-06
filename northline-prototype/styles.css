@@ -1117,3 +1117,8 @@ ul, ol {
 .ticket-side-btn.sell:hover {
   color: var(--sell-red);
 }
+
+/* Order Type Toggle (Limit / Market / Stop) */
+.ticket-type-tabs {
+  display: flex;
+  align-items: center;
