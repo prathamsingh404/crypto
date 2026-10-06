@@ -1175,3 +1175,7 @@ ul, ol {
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-xs);
   display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  gap: 8px;
+  transition: border-color var(--trans-fast);
