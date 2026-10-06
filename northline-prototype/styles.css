@@ -906,3 +906,8 @@ ul, ol {
 }
 
 .vol-bar {
+  flex: 1;
+  max-width: 8px;
+  background-color: rgba(78, 168, 125, 0.28);
+  border-radius: 1px 1px 0 0;
+}
