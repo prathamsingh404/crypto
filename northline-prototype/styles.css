@@ -1170,3 +1170,8 @@ ul, ol {
   color: var(--text-muted);
 }
 
+.order-input-wrapper {
+  background-color: #101411;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-xs);
+  display: flex;
