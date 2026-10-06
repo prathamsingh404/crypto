@@ -1074,3 +1074,8 @@ ul, ol {
 /* 13. DELTA EXCHANGE STYLE ORDER TICKET (Right Execution Console) */
 .order-ticket-panel {
   background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
