@@ -1400,3 +1400,8 @@ ul, ol {
 .financial-table th.align-right,
 .financial-table td.align-right {
   text-align: right;
+}
+
+.financial-table th.align-center,
+.financial-table td.align-center {
+  text-align: center;
