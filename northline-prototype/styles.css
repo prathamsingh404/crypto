@@ -738,3 +738,8 @@ ul, ol {
   align-items: center;
   gap: 4px;
   margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid var(--border);
+}
+
+.candlestick-stage {
