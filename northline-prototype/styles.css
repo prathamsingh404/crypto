@@ -901,3 +901,8 @@ ul, ol {
   align-items: flex-end;
   justify-content: space-between;
   padding: 0 8px;
+  gap: 2px;
+  z-index: 3;
+}
+
+.vol-bar {
