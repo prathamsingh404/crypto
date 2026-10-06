@@ -1045,3 +1045,8 @@ ul, ol {
   color: var(--buy-green);
 }
 
+/* Mid-Market Spread Banner */
+.orderbook-spread-strip {
+  background-color: #111613;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
