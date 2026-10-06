@@ -1314,3 +1314,7 @@ ul, ol {
   height: 38px;
 }
 
+.console-tabs-left {
+  display: flex;
+  align-items: center;
+  gap: 4px;
