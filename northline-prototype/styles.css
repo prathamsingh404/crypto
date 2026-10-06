@@ -1443,3 +1443,8 @@ ul, ol {
   display: flex;
   flex-direction: column;
 }
+
+.asset-symbol {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text-primary);
