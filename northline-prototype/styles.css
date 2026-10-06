@@ -777,3 +777,8 @@ ul, ol {
   text-align: right;
   user-select: none;
 }
+
+.candle-gridlines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
