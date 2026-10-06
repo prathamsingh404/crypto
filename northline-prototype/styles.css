@@ -1184,3 +1184,8 @@ ul, ol {
 .order-input-wrapper:focus-within {
   border-color: var(--accent);
 }
+
+.order-input {
+  flex: 1;
+  font-family: var(--font-mono);
+  font-size: 13px;
