@@ -762,3 +762,8 @@ ul, ol {
   position: relative;
   height: 100%;
 }
+
+.chart-right-scale {
+  width: 66px;
+  border-left: 1px solid var(--border);
+  background-color: #101411;
