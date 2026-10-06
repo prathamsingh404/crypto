@@ -772,3 +772,8 @@ ul, ol {
   justify-content: space-between;
   padding: 10px 6px;
   font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-muted);
+  text-align: right;
+  user-select: none;
+}
