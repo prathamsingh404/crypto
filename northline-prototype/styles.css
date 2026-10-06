@@ -801,3 +801,8 @@ ul, ol {
   border-bottom: 1px dashed var(--buy-green);
   pointer-events: none;
   z-index: 5;
+}
+
+.current-price-badge {
+  position: absolute;
+  right: -66px;
