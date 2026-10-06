@@ -1060,3 +1060,7 @@ ul, ol {
 
 .spread-price-mark {
   font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
