@@ -969,3 +969,7 @@ ul, ol {
 .orderbook-tab-btn.active {
   color: var(--text-primary);
   background-color: var(--surface-raised);
+}
+
+.orderbook-col-headers {
+  display: grid;
