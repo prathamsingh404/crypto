@@ -1280,3 +1280,8 @@ ul, ol {
   text-transform: uppercase;
   padding: 11px 16px;
   border-radius: var(--radius-xs);
+  text-align: center;
+  transition: background-color var(--trans-fast);
+  user-select: none;
+}
+
