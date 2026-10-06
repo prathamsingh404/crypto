@@ -983,3 +983,8 @@ ul, ol {
   background-color: #0f1310;
 }
 
+.orderbook-col-headers span:nth-child(2),
+.orderbook-col-headers span:nth-child(3) {
+  text-align: right;
+}
+
