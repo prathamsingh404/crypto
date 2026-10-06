@@ -700,3 +700,8 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
+}
+
+.chart-tools-left {
+  display: flex;
