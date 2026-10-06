@@ -1333,3 +1333,8 @@ ul, ol {
   align-items: center;
   gap: 6px;
   transition: color var(--trans-fast);
+}
+
+.console-tab-btn:hover {
+  color: var(--text-primary);
+}
