@@ -1002,3 +1002,8 @@ ul, ol {
   gap: 1px;
 }
 
+.orderbook-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2.5px 10px;
+  font-family: var(--font-mono);
