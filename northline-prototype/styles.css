@@ -1084,3 +1084,7 @@ ul, ol {
 }
 
 /* Big Buy / Sell Mode Tabs */
+.ticket-side-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #0f1310;
