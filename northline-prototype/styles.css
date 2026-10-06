@@ -1299,3 +1299,8 @@ ul, ol {
 /* 14. BOTTOM ACCOUNT CONSOLE (Delta Exchange Positions & Orders Ledger) */
 .bottom-console-panel {
   background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  overflow: hidden;
+}
+
