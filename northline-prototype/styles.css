@@ -887,3 +887,8 @@ ul, ol {
 
 .candle-unit:hover .candle-tooltip {
   opacity: 1;
+}
+
+.volume-track {
+  position: absolute;
+  bottom: 0;
