@@ -1424,3 +1424,8 @@ ul, ol {
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-xs);
   color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  text-align: center;
