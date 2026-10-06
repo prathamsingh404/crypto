@@ -1467,3 +1467,8 @@ ul, ol {
   border-radius: var(--radius-xs);
   text-transform: capitalize;
   white-space: nowrap;
+}
+
+.status-pill.filled {
+  background-color: var(--buy-green-bg);
+  color: var(--buy-green);
