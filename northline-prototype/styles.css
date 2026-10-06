@@ -1026,3 +1026,8 @@ ul, ol {
 .orderbook-row .col-total {
   text-align: right;
   color: var(--text-secondary);
+}
+
+/* Cumulative Depth Heat Background Fill */
+.orderbook-row.ask {
+  background: linear-gradient(to left, var(--sell-red-depth) var(--depth), transparent var(--depth));
