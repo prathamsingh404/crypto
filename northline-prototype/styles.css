@@ -858,3 +858,8 @@ ul, ol {
 .candle-unit.bullish .candle-body {
   background-color: var(--buy-green);
 }
+
+.candle-unit.bearish .candle-wick,
+.candle-unit.bearish .candle-body {
+  background-color: var(--sell-red);
+}
