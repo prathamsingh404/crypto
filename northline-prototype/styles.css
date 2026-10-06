@@ -839,3 +839,8 @@ ul, ol {
 }
 
 .candle-wick {
+  position: absolute;
+  width: 1px;
+  background-color: var(--text-muted);
+  z-index: 1;
+}
