@@ -1208,3 +1208,8 @@ ul, ol {
 
 .preset-btn {
   font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 500;
+  background-color: #121713;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
