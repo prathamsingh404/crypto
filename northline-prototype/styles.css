@@ -1266,3 +1266,8 @@ ul, ol {
 
 .breakdown-row.total .breakdown-val {
   color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Primary Execution Button */
