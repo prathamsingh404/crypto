@@ -1055,3 +1055,8 @@ ul, ol {
   align-items: center;
   justify-content: space-between;
   font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.spread-price-mark {
+  font-size: 13px;
