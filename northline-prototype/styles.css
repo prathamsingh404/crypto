@@ -1122,3 +1122,8 @@ ul, ol {
 .ticket-type-tabs {
   display: flex;
   align-items: center;
+  gap: 4px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+
