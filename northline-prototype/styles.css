@@ -1371,3 +1371,8 @@ ul, ol {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: var(--text-muted);
+  background-color: #101411;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
