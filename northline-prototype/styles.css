@@ -1021,3 +1021,8 @@ ul, ol {
 .orderbook-row .col-price {
   font-weight: 600;
 }
+
+.orderbook-row .col-size,
+.orderbook-row .col-total {
+  text-align: right;
+  color: var(--text-secondary);
