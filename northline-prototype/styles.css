@@ -1352,3 +1352,8 @@ ul, ol {
   background-color: var(--surface-raised);
 }
 
+/* 15. PRECISION DATA TABLES (Bloomberg / Delta Grade) */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
