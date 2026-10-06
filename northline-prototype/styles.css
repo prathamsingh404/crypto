@@ -810,3 +810,8 @@ ul, ol {
   background-color: var(--buy-green);
   color: #0e1711;
   font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 4px;
+  border-radius: var(--radius-xs);
+  z-index: 10;
