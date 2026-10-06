@@ -930,3 +930,8 @@ ul, ol {
   user-select: none;
 }
 
+/* 12. DELTA EXCHANGE STYLE ORDER BOOK & MARKET DEPTH (DOM) */
+.orderbook-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface);
