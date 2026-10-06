@@ -820,3 +820,8 @@ ul, ol {
 .candles-track {
   position: absolute;
   inset: 0;
+  padding: 16px 8px 42px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 2px;
