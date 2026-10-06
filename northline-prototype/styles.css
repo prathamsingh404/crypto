@@ -1386,3 +1386,7 @@ ul, ol {
 }
 
 .financial-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.financial-table tbody tr:hover td {
