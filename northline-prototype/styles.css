@@ -1457,3 +1457,8 @@ ul, ol {
 }
 
 /* Status & Side Badges */
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 10px;
