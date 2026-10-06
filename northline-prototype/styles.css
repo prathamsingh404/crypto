@@ -1405,3 +1405,8 @@ ul, ol {
 .financial-table th.align-center,
 .financial-table td.align-center {
   text-align: center;
+}
+
+/* Asset Badge (Authentic Terminal Symbol Box) */
+.asset-identity {
+  display: flex;
