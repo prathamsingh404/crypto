@@ -1251,3 +1251,8 @@ ul, ol {
 }
 
 .breakdown-val {
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
