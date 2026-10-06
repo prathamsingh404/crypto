@@ -767,3 +767,8 @@ ul, ol {
   width: 66px;
   border-left: 1px solid var(--border);
   background-color: #101411;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 6px;
+  font-family: var(--font-mono);
