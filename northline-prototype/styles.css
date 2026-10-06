@@ -743,3 +743,8 @@ ul, ol {
 }
 
 .candlestick-stage {
+  flex: 1;
+  position: relative;
+  background-color: #0d110e;
+  display: flex;
+  flex-direction: column;
