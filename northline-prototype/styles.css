@@ -993,3 +993,7 @@ ul, ol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
+}
+
+.orderbook-rows-list {
