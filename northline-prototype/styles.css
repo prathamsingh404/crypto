@@ -954,3 +954,8 @@ ul, ol {
 
 .orderbook-tabs {
   display: flex;
+  gap: 4px;
+}
+
+.orderbook-tab-btn {
+  font-family: var(--font-mono);
