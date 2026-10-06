@@ -978,3 +978,8 @@ ul, ol {
   font-family: var(--font-mono);
   font-size: 10px;
   font-weight: 600;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-subtle);
+  background-color: #0f1310;
+}
+
