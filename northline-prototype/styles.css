@@ -1036,3 +1036,7 @@ ul, ol {
 .orderbook-row.ask .col-price {
   color: var(--sell-red);
 }
+
+.orderbook-row.bid {
+  background: linear-gradient(to left, var(--buy-green-depth) var(--depth), transparent var(--depth));
+}
