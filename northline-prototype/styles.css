@@ -1390,3 +1390,8 @@ ul, ol {
 }
 
 .financial-table tbody tr:hover td {
+  background-color: var(--surface-hover);
+}
+
+.financial-table tbody tr:hover td:first-child {
+  box-shadow: inset 3px 0 0 var(--accent);
