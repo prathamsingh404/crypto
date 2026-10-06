@@ -1453,3 +1453,7 @@ ul, ol {
 
 .asset-name {
   font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* Status & Side Badges */
