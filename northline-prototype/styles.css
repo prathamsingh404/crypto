@@ -1275,3 +1275,8 @@ ul, ol {
   background-color: var(--buy-green);
   color: #0d1611;
   font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 11px 16px;
+  border-radius: var(--radius-xs);
