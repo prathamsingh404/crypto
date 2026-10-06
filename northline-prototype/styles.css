@@ -882,3 +882,8 @@ ul, ol {
   white-space: nowrap;
   pointer-events: none;
   opacity: 0;
+  z-index: 20;
+}
+
+.candle-unit:hover .candle-tooltip {
+  opacity: 1;
