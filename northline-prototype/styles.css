@@ -854,3 +854,7 @@ ul, ol {
   z-index: 2;
 }
 
+.candle-unit.bullish .candle-wick,
+.candle-unit.bullish .candle-body {
+  background-color: var(--buy-green);
+}
