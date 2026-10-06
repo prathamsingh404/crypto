@@ -873,3 +873,7 @@ ul, ol {
   position: absolute;
   top: -28px;
   background-color: var(--surface-raised);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-xs);
+  padding: 2px 5px;
+  font-family: var(--font-mono);
