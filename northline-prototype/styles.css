@@ -806,3 +806,7 @@ ul, ol {
 .current-price-badge {
   position: absolute;
   right: -66px;
+  top: -9px;
+  background-color: var(--buy-green);
+  color: #0e1711;
+  font-family: var(--font-mono);
