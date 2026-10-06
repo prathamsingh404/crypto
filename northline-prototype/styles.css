@@ -868,3 +868,8 @@ ul, ol {
 .candle-unit:hover .candle-body {
   filter: brightness(1.3);
 }
+
+.candle-tooltip {
+  position: absolute;
+  top: -28px;
+  background-color: var(--surface-raised);
