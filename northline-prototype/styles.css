@@ -916,3 +916,8 @@ ul, ol {
   background-color: rgba(209, 107, 101, 0.28);
 }
 
+.chart-time-bar {
+  height: 24px;
+  border-top: 1px solid var(--border);
+  background-color: #101411;
+  display: flex;
