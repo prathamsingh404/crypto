@@ -1151,3 +1151,7 @@ ul, ol {
 }
 
 .ticket-balance-val {
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+  font-weight: 600;
+}
