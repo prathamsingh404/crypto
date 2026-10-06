@@ -1064,3 +1064,8 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.spread-diff-tag {
+  font-size: 10px;
+  color: var(--text-muted);
