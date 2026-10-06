@@ -997,3 +997,8 @@ ul, ol {
 }
 
 .orderbook-rows-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
