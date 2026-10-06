@@ -1271,3 +1271,7 @@ ul, ol {
 }
 
 /* Primary Execution Button */
+.btn-primary-order {
+  background-color: var(--buy-green);
+  color: #0d1611;
+  font-size: 13px;
