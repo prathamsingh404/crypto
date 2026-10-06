@@ -1031,3 +1031,8 @@ ul, ol {
 /* Cumulative Depth Heat Background Fill */
 .orderbook-row.ask {
   background: linear-gradient(to left, var(--sell-red-depth) var(--depth), transparent var(--depth));
+}
+
+.orderbook-row.ask .col-price {
+  color: var(--sell-red);
+}
