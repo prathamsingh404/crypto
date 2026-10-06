@@ -1304,3 +1304,8 @@ ul, ol {
   overflow: hidden;
 }
 
+.console-tabs-strip {
+  background-color: #111512;
+  border-bottom: 1px solid var(--border);
+  padding: 0 12px;
+  display: flex;
