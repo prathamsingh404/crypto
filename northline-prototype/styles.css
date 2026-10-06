@@ -911,3 +911,8 @@ ul, ol {
   background-color: rgba(78, 168, 125, 0.28);
   border-radius: 1px 1px 0 0;
 }
+
+.vol-bar.down {
+  background-color: rgba(209, 107, 101, 0.28);
+}
+
