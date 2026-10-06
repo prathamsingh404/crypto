@@ -1103,3 +1103,8 @@ ul, ol {
   border-radius: var(--radius-xs);
   transition: all var(--trans-fast);
   text-transform: uppercase;
+}
+
+.ticket-side-btn.buy.active {
+  background-color: var(--buy-green);
+  color: #0e1711;
