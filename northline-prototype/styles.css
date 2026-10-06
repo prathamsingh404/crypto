@@ -1007,3 +1007,8 @@ ul, ol {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2.5px 10px;
   font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.2;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 80ms ease;
