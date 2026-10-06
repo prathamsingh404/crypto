@@ -1199,3 +1199,7 @@ ul, ol {
   color: var(--text-muted);
 }
 
+/* Percentage Presets */
+.percentage-presets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
