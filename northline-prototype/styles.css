@@ -1112,3 +1112,8 @@ ul, ol {
 
 .ticket-side-btn.sell {
   color: var(--text-muted);
+}
+
+.ticket-side-btn.sell:hover {
+  color: var(--sell-red);
+}
