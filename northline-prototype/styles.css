@@ -1261,3 +1261,8 @@ ul, ol {
   padding-top: 6px;
   margin-top: 2px;
   color: var(--text-primary);
+  font-weight: 600;
+}
+
+.breakdown-row.total .breakdown-val {
+  color: var(--text-primary);
