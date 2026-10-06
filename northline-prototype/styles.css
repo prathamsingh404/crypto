@@ -705,3 +705,8 @@ ul, ol {
 
 .chart-tools-left {
   display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.period-btn {
