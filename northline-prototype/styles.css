@@ -973,3 +973,8 @@ ul, ol {
 
 .orderbook-col-headers {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4px 10px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
