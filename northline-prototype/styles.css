@@ -1088,3 +1088,8 @@ ul, ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #0f1310;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  padding: 2px;
+  gap: 2px;
+}
