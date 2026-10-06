@@ -1223,3 +1223,7 @@ ul, ol {
   background-color: var(--surface-hover);
   color: var(--text-primary);
   border-color: var(--border-strong);
+}
+
+.preset-btn.active {
+  background-color: var(--border-strong);
