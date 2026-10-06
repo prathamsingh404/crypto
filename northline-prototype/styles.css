@@ -1472,3 +1472,8 @@ ul, ol {
 .status-pill.filled {
   background-color: var(--buy-green-bg);
   color: var(--buy-green);
+  border: 1px solid rgba(78, 168, 125, 0.25);
+}
+
+.status-pill.open {
+  background-color: var(--warning-bg);
