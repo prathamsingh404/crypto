@@ -1069,3 +1069,8 @@ ul, ol {
 .spread-diff-tag {
   font-size: 10px;
   color: var(--text-muted);
+}
+
+/* 13. DELTA EXCHANGE STYLE ORDER TICKET (Right Execution Console) */
+.order-ticket-panel {
+  background-color: var(--surface);
