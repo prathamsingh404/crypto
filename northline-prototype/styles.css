@@ -1155,3 +1155,8 @@ ul, ol {
   color: var(--text-primary);
   font-weight: 600;
 }
+
+/* Compact Form Input Group */
+.order-field-group {
+  display: flex;
+  flex-direction: column;
