@@ -1160,3 +1160,8 @@ ul, ol {
 .order-field-group {
   display: flex;
   flex-direction: column;
+  gap: 3px;
+}
+
+.order-label-row {
+  display: flex;
