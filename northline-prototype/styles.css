@@ -758,3 +758,7 @@ ul, ol {
 }
 
 .chart-plot-area {
+  flex: 1;
+  position: relative;
+  height: 100%;
+}
