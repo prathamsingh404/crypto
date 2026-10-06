@@ -877,3 +877,8 @@ ul, ol {
   border-radius: var(--radius-xs);
   padding: 2px 5px;
   font-family: var(--font-mono);
+  font-size: 9.5px;
+  color: var(--text-primary);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
