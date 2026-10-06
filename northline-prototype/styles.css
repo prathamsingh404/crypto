@@ -1357,3 +1357,8 @@ ul, ol {
   width: 100%;
   overflow-x: auto;
 }
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
