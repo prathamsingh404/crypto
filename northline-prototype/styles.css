@@ -1519,3 +1519,8 @@ ul, ol {
 }
 
 .perf-grid-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
