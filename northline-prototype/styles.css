@@ -1510,3 +1510,8 @@ ul, ol {
 .perf-chart-canvas {
   height: 200px;
   position: relative;
+  border-bottom: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 6px;
