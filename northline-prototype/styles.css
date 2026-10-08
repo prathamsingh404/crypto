@@ -1532,3 +1532,8 @@ ul, ol {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  padding-right: 4px;
+}
+
+.perf-grid-label {
+  font-family: var(--font-mono);
