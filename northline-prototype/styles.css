@@ -1564,3 +1564,7 @@ ul, ol {
 }
 
 .perf-bar {
+  width: 100%;
+  max-width: 24px;
+  background-color: #202b23;
+  border-top: 2px solid var(--buy-green);
