@@ -1537,3 +1537,7 @@ ul, ol {
 
 .perf-grid-label {
   font-family: var(--font-mono);
+  font-size: 9.5px;
+  color: var(--text-muted);
+  transform: translateY(-50%);
+}
