@@ -1550,3 +1550,8 @@ ul, ol {
   display: flex;
   align-items: flex-end;
   gap: 5px;
+}
+
+.perf-col {
+  flex: 1;
+  height: 100%;
