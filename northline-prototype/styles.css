@@ -1528,3 +1528,7 @@ ul, ol {
 }
 
 .perf-grid-line {
+  border-bottom: 1px dashed rgba(35, 44, 37, 0.6);
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
