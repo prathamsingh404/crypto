@@ -1541,3 +1541,8 @@ ul, ol {
   color: var(--text-muted);
   transform: translateY(-50%);
 }
+
+.perf-bars {
+  position: relative;
+  z-index: 2;
+  width: 100%;
