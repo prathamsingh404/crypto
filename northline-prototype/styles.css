@@ -1688,3 +1688,8 @@ ul, ol {
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 12px;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
