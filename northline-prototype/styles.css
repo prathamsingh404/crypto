@@ -1679,3 +1679,8 @@ ul, ol {
 .spark-bar.neg {
   background-color: var(--sell-red);
 }
+
+/* 17. FILTERS & SEARCH */
+.filter-bar {
+  display: flex;
+  align-items: center;
