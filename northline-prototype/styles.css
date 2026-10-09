@@ -1670,3 +1670,8 @@ ul, ol {
 }
 
 .spark-bar {
+  flex: 1;
+  background-color: var(--buy-green);
+  border-radius: 1px 1px 0 0;
+  opacity: 0.75;
+}
