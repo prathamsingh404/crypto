@@ -1742,3 +1742,7 @@ ul, ol {
   flex-direction: column;
   gap: 12px;
 }
+
+.footer-top-row {
+  display: flex;
+  align-items: center;
