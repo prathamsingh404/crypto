@@ -1626,3 +1626,7 @@ ul, ol {
 .bar-segment.btc { background-color: var(--accent); }
 .bar-segment.eth { background-color: var(--buy-green); }
 .bar-segment.sol { background-color: var(--warning); }
+.bar-segment.usdt { background-color: #4a5d50; }
+.bar-segment.xrp { background-color: #38473d; }
+
+.allocation-breakdown-list {
