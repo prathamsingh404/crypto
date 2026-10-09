@@ -1657,3 +1657,8 @@ ul, ol {
 
 .alloc-progress-fill.btc { background-color: var(--accent); }
 .alloc-progress-fill.eth { background-color: var(--buy-green); }
+.alloc-progress-fill.sol { background-color: var(--warning); }
+.alloc-progress-fill.usdt { background-color: #4a5d50; }
+.alloc-progress-fill.xrp { background-color: #38473d; }
+
+.sparkline-micro {
