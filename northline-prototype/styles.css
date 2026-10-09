@@ -1595,3 +1595,7 @@ ul, ol {
 
 .perf-col:hover .perf-tooltip {
   opacity: 1;
+}
+
+.perf-time-axis {
+  display: flex;
