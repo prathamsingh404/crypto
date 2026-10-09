@@ -1621,3 +1621,8 @@ ul, ol {
   height: 100%;
   transition: opacity var(--trans-fast);
 }
+
+.bar-segment:hover { opacity: 0.8; }
+.bar-segment.btc { background-color: var(--accent); }
+.bar-segment.eth { background-color: var(--buy-green); }
+.bar-segment.sol { background-color: var(--warning); }
