@@ -1577,3 +1577,7 @@ ul, ol {
   border-top-color: var(--accent-hover);
 }
 
+.perf-tooltip {
+  position: absolute;
+  top: -30px;
+  background-color: var(--surface-raised);
