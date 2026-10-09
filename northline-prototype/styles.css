@@ -1630,3 +1630,8 @@ ul, ol {
 .bar-segment.xrp { background-color: #38473d; }
 
 .allocation-breakdown-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
