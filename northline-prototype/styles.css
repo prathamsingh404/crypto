@@ -1791,3 +1791,7 @@ ul, ol {
   flex-wrap: wrap;
   gap: 12px;
   font-size: 11px;
+  color: var(--text-muted);
+}
+
+.footer-disclosure {
