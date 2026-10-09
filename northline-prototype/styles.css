@@ -1573,3 +1573,7 @@ ul, ol {
 }
 
 .perf-col:hover .perf-bar {
+  background-color: #2c3c31;
+  border-top-color: var(--accent-hover);
+}
+
