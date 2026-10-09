@@ -1697,3 +1697,8 @@ ul, ol {
   flex-wrap: wrap;
 }
 
+.filter-input {
+  background-color: #101411;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  padding: 5px 10px;
