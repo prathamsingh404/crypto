@@ -1662,3 +1662,7 @@ ul, ol {
 .alloc-progress-fill.xrp { background-color: #38473d; }
 
 .sparkline-micro {
+  width: 80px;
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
