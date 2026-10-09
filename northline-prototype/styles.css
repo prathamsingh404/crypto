@@ -1706,3 +1706,7 @@ ul, ol {
   color: var(--text-primary);
   width: 200px;
 }
+
+.filter-select {
+  background-color: #101411;
+  border: 1px solid var(--border);
