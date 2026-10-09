@@ -1653,3 +1653,7 @@ ul, ol {
 .alloc-progress-fill {
   height: 100%;
   border-radius: 3px;
+}
+
+.alloc-progress-fill.btc { background-color: var(--accent); }
+.alloc-progress-fill.eth { background-color: var(--buy-green); }
