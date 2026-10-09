@@ -1586,3 +1586,7 @@ ul, ol {
   padding: 2px 6px;
   font-family: var(--font-mono);
   font-size: 10px;
+  color: var(--text-primary);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
