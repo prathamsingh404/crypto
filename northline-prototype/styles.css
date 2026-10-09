@@ -1613,3 +1613,7 @@ ul, ol {
   border-radius: var(--radius-xs);
   display: flex;
   overflow: hidden;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+}
+
