@@ -12,4 +12,4 @@ Built strictly with **pure HTML5 and CSS3** — zero JavaScript runtime, zero CS
 - `SOL / USDT` — Solana Spot ($153.42)
 - `XRP / USDT` — Ripple Spot ($0.6248)
 
-- Milestone 3: Spot Order Ticket & Execution Interface (59/67)
+- Milestone 3: Spot Order Ticket & Execution Interface (60/67)
