@@ -1617,3 +1617,7 @@ ul, ol {
   border: 1px solid var(--border);
 }
 
+.bar-segment {
+  height: 100%;
+  transition: opacity var(--trans-fast);
+}
