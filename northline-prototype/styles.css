@@ -1666,3 +1666,7 @@ ul, ol {
   height: 20px;
   display: flex;
   align-items: flex-end;
+  gap: 2px;
+}
+
+.spark-bar {
