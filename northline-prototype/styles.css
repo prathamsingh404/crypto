@@ -1568,3 +1568,8 @@ ul, ol {
   max-width: 24px;
   background-color: #202b23;
   border-top: 2px solid var(--buy-green);
+  border-radius: 1px 1px 0 0;
+  transition: background-color var(--trans-fast);
+}
+
+.perf-col:hover .perf-bar {
