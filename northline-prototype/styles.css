@@ -1702,3 +1702,7 @@ ul, ol {
   border: 1px solid var(--border);
   border-radius: var(--radius-xs);
   padding: 5px 10px;
+  font-size: 12px;
+  color: var(--text-primary);
+  width: 200px;
+}
