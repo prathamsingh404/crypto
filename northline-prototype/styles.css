@@ -1590,3 +1590,8 @@ ul, ol {
   white-space: nowrap;
   pointer-events: none;
   opacity: 0;
+  z-index: 10;
+}
+
+.perf-col:hover .perf-tooltip {
+  opacity: 1;
