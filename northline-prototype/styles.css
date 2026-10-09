@@ -1635,3 +1635,7 @@ ul, ol {
   gap: 10px;
 }
 
+.allocation-row-item {
+  display: grid;
+  grid-template-columns: 140px 1fr 140px;
+  align-items: center;
