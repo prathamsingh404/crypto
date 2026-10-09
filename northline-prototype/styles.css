@@ -1759,3 +1759,8 @@ ul, ol {
   gap: 10px;
 }
 
+.footer-brand-title {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
