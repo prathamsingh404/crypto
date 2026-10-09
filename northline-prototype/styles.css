@@ -1675,3 +1675,7 @@ ul, ol {
   border-radius: 1px 1px 0 0;
   opacity: 0.75;
 }
+
+.spark-bar.neg {
+  background-color: var(--sell-red);
+}
