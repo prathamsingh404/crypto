@@ -1779,3 +1779,7 @@ ul, ol {
   color: var(--text-secondary);
   transition: color var(--trans-fast);
 }
+
+.footer-nav a:hover {
+  color: var(--accent);
+}
