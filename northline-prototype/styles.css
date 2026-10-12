@@ -1775,3 +1775,7 @@ ul, ol {
   font-size: 12px;
 }
 
+.footer-nav a {
+  color: var(--text-secondary);
+  transition: color var(--trans-fast);
+}
