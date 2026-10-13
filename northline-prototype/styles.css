@@ -1872,3 +1872,7 @@ ul, ol {
     font-size: 12px;
   }
 
+  .app-main {
+    padding: 12px 10px 30px;
+  }
+
