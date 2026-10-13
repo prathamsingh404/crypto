@@ -1820,3 +1820,7 @@ ul, ol {
 
 @media (max-width: 900px) {
   .delta-trading-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .account-ledger-bar {
