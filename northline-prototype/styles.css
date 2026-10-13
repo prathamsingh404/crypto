@@ -1797,3 +1797,7 @@ ul, ol {
 .footer-disclosure {
   max-width: 860px;
   line-height: 1.5;
+}
+
+.footer-telemetry {
+  font-family: var(--font-mono);
