@@ -1852,3 +1852,7 @@ ul, ol {
     display: none;
   }
 
+  .nav-menu {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
