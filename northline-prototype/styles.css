@@ -1836,3 +1836,7 @@ ul, ol {
     border-bottom: none;
   }
 }
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 8px 12px;
