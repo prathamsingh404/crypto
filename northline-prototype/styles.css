@@ -1816,3 +1816,7 @@ ul, ol {
     grid-column: span 1;
     min-height: 400px;
   }
+}
+
+@media (max-width: 900px) {
+  .delta-trading-grid {
