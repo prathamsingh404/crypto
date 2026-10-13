@@ -1793,3 +1793,7 @@ ul, ol {
   font-size: 11px;
   color: var(--text-muted);
 }
+
+.footer-disclosure {
+  max-width: 860px;
+  line-height: 1.5;
