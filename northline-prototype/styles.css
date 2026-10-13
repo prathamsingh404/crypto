@@ -1895,3 +1895,7 @@ ul, ol {
     flex-wrap: wrap;
   }
 
+  .allocation-row-item {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
