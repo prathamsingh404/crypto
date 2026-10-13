@@ -1824,3 +1824,7 @@ ul, ol {
   }
 
   .account-ledger-bar {
+    grid-template-columns: 1fr;
+  }
+
+  .ledger-bay {
