@@ -12,4 +12,4 @@ Built strictly with **pure HTML5 and CSS3** — zero JavaScript runtime, zero CS
 - `SOL / USDT` — Solana Spot ($153.42)
 - `XRP / USDT` — Ripple Spot ($0.6248)
 
-- Milestone 4: Portfolio Allocation & Holdings Engine (19/105)
+- Milestone 4: Portfolio Allocation & Holdings Engine (20/105)

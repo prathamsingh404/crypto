@@ -1860,3 +1860,7 @@ ul, ol {
     border-top: 1px solid var(--border);
     padding-top: 4px;
     height: 38px;
+  }
+
+  .nav-menu::-webkit-scrollbar {
+    display: none;
