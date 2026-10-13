@@ -1879,3 +1879,7 @@ ul, ol {
   .page-header {
     flex-direction: column;
     align-items: flex-start;
+    gap: 6px;
+  }
+
+  .market-contract-strip {
