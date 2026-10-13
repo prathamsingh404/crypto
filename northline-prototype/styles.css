@@ -1805,3 +1805,7 @@ ul, ol {
   color: var(--text-muted);
   white-space: nowrap;
 }
+
+/* 19. RESPONSIVE MEDIA QUERIES */
+@media (max-width: 1200px) {
+  .delta-trading-grid {
