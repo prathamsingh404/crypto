@@ -1887,3 +1887,7 @@ ul, ol {
     align-items: flex-start;
   }
 
+  .contract-metrics-row {
+    border-left: none;
+    padding-left: 0;
+    width: 100%;
