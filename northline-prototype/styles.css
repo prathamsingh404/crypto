@@ -1864,3 +1864,7 @@ ul, ol {
 
   .nav-menu::-webkit-scrollbar {
     display: none;
+  }
+
+  .nav-link {
+    height: 34px;
