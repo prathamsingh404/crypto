@@ -1813,3 +1813,6 @@ ul, ol {
   }
 
   .orderbook-panel {
+    grid-column: span 1;
+    min-height: 400px;
+  }
