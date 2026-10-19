@@ -1721,3 +1721,7 @@ ul, ol {
   font-family: var(--font-mono);
   font-size: 10.5px;
   color: var(--text-muted);
+  background-color: #101411;
+  border: 1px solid var(--border);
+  padding: 3px 6px;
+  border-radius: var(--radius-xs);
