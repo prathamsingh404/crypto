@@ -1781,3 +1781,7 @@ ul, ol {
 }
 
 .footer-nav a:hover {
+  color: var(--accent);
+}
+
+.footer-meta-row {
