@@ -1848,3 +1848,7 @@ ul, ol {
     height: auto;
   }
 
+  .system-status-indicator {
+    display: none;
+  }
+
