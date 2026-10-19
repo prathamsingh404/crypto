@@ -1770,3 +1770,7 @@ ul, ol {
 
 .footer-nav {
   display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 12px;
+}
