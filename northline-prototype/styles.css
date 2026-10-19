@@ -1740,3 +1740,7 @@ ul, ol {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  gap: 12px;
+}
+
+.footer-top-row {
