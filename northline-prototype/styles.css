@@ -1901,3 +1901,7 @@ ul, ol {
   }
 
   .footer-meta-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
