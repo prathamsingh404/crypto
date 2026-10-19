@@ -1882,3 +1882,7 @@ ul, ol {
     gap: 6px;
   }
 
+  .market-contract-strip {
+    flex-direction: column;
+    align-items: flex-start;
+  }
