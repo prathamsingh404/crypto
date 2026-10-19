@@ -1867,3 +1867,7 @@ ul, ol {
   }
 
   .nav-link {
+    height: 34px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
