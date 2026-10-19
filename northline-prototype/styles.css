@@ -1766,3 +1766,7 @@ ul, ol {
   letter-spacing: 0.05em;
   color: var(--text-primary);
   text-transform: uppercase;
+}
+
+.footer-nav {
+  display: flex;
