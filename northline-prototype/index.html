@@ -180,6 +180,280 @@
               <div class="perf-col"><div class="perf-bar" style="height: 68%;"></div><div class="perf-tooltip">09 Oct: $24,110</div></div>
               <div class="perf-col"><div class="perf-bar" style="height: 72%;"></div><div class="perf-tooltip">10 Oct: $24,280</div></div>
               <div class="perf-col"><div class="perf-bar" style="height: 70%;"></div><div class="perf-tooltip">11 Oct: $24,190</div></div>
+              <div class="perf-col"><div class="perf-bar" style="height: 75%;"></div><div class="perf-tooltip">12 Oct: $24,390</div></div>
+              <div class="perf-col"><div class="perf-bar" style="height: 73%;"></div><div class="perf-tooltip">13 Oct: $24,310</div></div>
+              <div class="perf-col"><div class="perf-bar" style="height: 78%;"></div><div class="perf-tooltip">14 Oct: $24,500</div></div>
+              <div class="perf-col"><div class="perf-bar" style="height: 76%;"></div><div class="perf-tooltip">15 Oct: $24,420</div></div>
+              <div class="perf-col"><div class="perf-bar" style="height: 80%;"></div><div class="perf-tooltip">16 Oct: $24,570</div></div>
+              <div class="perf-col"><div class="perf-bar" style="height: 78%;"></div><div class="perf-tooltip">17 Oct: $24,490</div></div>
+              <div class="perf-col"><div class="perf-bar" style="height: 82%;"></div><div class="perf-tooltip">18 Oct: $24,620</div></div>
+              <div class="perf-col"><div class="perf-bar" style="height: 85%; border-top-color: var(--accent);"></div><div class="perf-tooltip">19 Oct: $24,680.45</div></div>
+            </div>
+          </div>
+
+          <!-- Time Axis -->
+          <div class="perf-time-axis" aria-hidden="true">
+            <span>20 Sep</span>
+            <span>27 Sep</span>
+            <span>04 Oct</span>
+            <span>11 Oct</span>
+            <span>19 Oct 2026</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Secondary Right Region: Institutional Custody Summary -->
+      <section class="account-detail-panel" aria-labelledby="account-summary-title">
+        <div>
+          <div class="section-header" style="margin-bottom: var(--space-8);">
+            <h2 class="section-title" id="account-summary-title" style="font-size: 16px;">Account overview</h2>
+            <a href="portfolio.html" class="section-action-link">Portfolio &rarr;</a>
+          </div>
+          <p class="sec" style="font-size: 13px;">Spot trading custody status.</p>
+
+          <div class="account-detail-list">
+            <div class="account-detail-item">
+              <span class="detail-label">Settlement Base</span>
+              <span class="detail-val">USDT (Tether)</span>
+            </div>
+            <div class="account-detail-item">
+              <span class="detail-label">Asset Spread</span>
+              <span class="detail-val tabular-nums">4 Digital Assets + Cash</span>
+            </div>
+            <div class="account-detail-item">
+              <span class="detail-label">Dominant Asset</span>
+              <span class="detail-val">BTC (50.14%)</span>
+            </div>
+            <div class="account-detail-item">
+              <span class="detail-label">24h Trade Volume</span>
+              <span class="detail-val tabular-nums">1 Order ($3,033.45)</span>
+            </div>
+            <div class="account-detail-item">
+              <span class="detail-label">Execution Route</span>
+              <span class="detail-val">Direct Spot Engine</span>
+            </div>
+            <div class="account-detail-item">
+              <span class="detail-label">Custody Protocol</span>
+              <span class="security-status-badge">Hardware 2FA Active</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: var(--space-16); padding-top: var(--space-12); border-top: 1px solid var(--border);">
+          <div class="muted mono" style="font-size: 11px; line-height: 1.5;">
+            CLEARING: T+0 SPOT DIRECT &middot; SIMULATED VAULT
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Section D & Section E: Asset Holdings & Recent Activity -->
+    <div class="overview-bottom-grid">
+      
+      <!-- Section D: Asset Holdings Table -->
+      <section class="section-panel" aria-labelledby="holdings-title">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="holdings-title">Your assets</h2>
+          </div>
+          <a href="markets.html" class="section-action-link">View all markets &rarr;</a>
+        </div>
+
+        <div class="table-container">
+          <table class="financial-table" aria-label="Current cryptocurrency portfolio holdings">
+            <thead>
+              <tr>
+                <th scope="col">Asset</th>
+                <th scope="col" class="align-right">Price</th>
+                <th scope="col" class="align-right">Balance</th>
+                <th scope="col" class="align-right">Value</th>
+                <th scope="col" class="align-right">24h change</th>
+                <th scope="col" class="align-right">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="asset-identity">
+                    <span class="asset-badge btc">BTC</span>
+                    <div class="asset-names">
+                      <span class="asset-symbol">Bitcoin</span>
+                      <span class="asset-name">BTC / USDT</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="align-right tabular-nums mono">$67,842.30</td>
+                <td class="align-right tabular-nums mono">0.1824 BTC</td>
+                <td class="align-right tabular-nums mono" style="font-weight: 600;">$12,374.44</td>
+                <td class="align-right tabular-nums mono pos">+2.41%</td>
+                <td class="align-right">
+                  <a href="trade.html" class="section-action-link" style="font-weight: 600;">Trade &rarr;</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="asset-identity">
+                    <span class="asset-badge eth">ETH</span>
+                    <div class="asset-names">
+                      <span class="asset-symbol">Ethereum</span>
+                      <span class="asset-name">ETH / USDT</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="align-right tabular-nums mono">$2,487.16</td>
+                <td class="align-right tabular-nums mono">2.1500 ETH</td>
+                <td class="align-right tabular-nums mono" style="font-weight: 600;">$5,347.39</td>
+                <td class="align-right tabular-nums mono pos">+1.32%</td>
+                <td class="align-right">
+                  <a href="trade.html" class="section-action-link" style="font-weight: 600;">Trade &rarr;</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="asset-identity">
+                    <span class="asset-badge sol">SOL</span>
+                    <div class="asset-names">
+                      <span class="asset-symbol">Solana</span>
+                      <span class="asset-name">SOL / USDT</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="align-right tabular-nums mono">$153.42</td>
+                <td class="align-right tabular-nums mono">21.400 SOL</td>
+                <td class="align-right tabular-nums mono" style="font-weight: 600;">$3,282.19</td>
+                <td class="align-right tabular-nums mono neg">-0.84%</td>
+                <td class="align-right">
+                  <a href="trade.html" class="section-action-link" style="font-weight: 600;">Trade &rarr;</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="asset-identity">
+                    <span class="asset-badge xrp">XRP</span>
+                    <div class="asset-names">
+                      <span class="asset-symbol">Ripple</span>
+                      <span class="asset-name">XRP / USDT</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="align-right tabular-nums mono">$0.6248</td>
+                <td class="align-right tabular-nums mono">1,200.0 XRP</td>
+                <td class="align-right tabular-nums mono" style="font-weight: 600;">$749.76</td>
+                <td class="align-right tabular-nums mono pos">+0.61%</td>
+                <td class="align-right">
+                  <a href="trade.html" class="section-action-link" style="font-weight: 600;">Trade &rarr;</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section E: Recent Activity -->
+      <section class="section-panel" aria-labelledby="activity-title">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="activity-title">Recent activity</h2>
+          </div>
+          <a href="activity.html" class="section-action-link">View all &rarr;</a>
+        </div>
+
+        <div class="table-container">
+          <table class="financial-table" aria-label="Recent simulated trade executions">
+            <thead>
+              <tr>
+                <th scope="col">Asset</th>
+                <th scope="col">Side</th>
+                <th scope="col" class="align-right">Qty</th>
+                <th scope="col" class="align-right">Price</th>
+                <th scope="col" class="align-right">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="asset-names">
+                    <span class="asset-symbol">BTC</span>
+                    <span class="asset-name mono">19 Oct 14:22</span>
+                  </div>
+                </td>
+                <td><span class="side-badge buy">Buy</span></td>
+                <td class="align-right tabular-nums mono">0.0450</td>
+                <td class="align-right tabular-nums mono">$67,410.00</td>
+                <td class="align-right"><span class="status-pill filled">Filled</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="asset-names">
+                    <span class="asset-symbol">ETH</span>
+                    <span class="asset-name mono">18 Oct 09:15</span>
+                  </div>
+                </td>
+                <td><span class="side-badge buy">Buy</span></td>
+                <td class="align-right tabular-nums mono">0.8500</td>
+                <td class="align-right tabular-nums mono">$2,460.50</td>
+                <td class="align-right"><span class="status-pill filled">Filled</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="asset-names">
+                    <span class="asset-symbol">XRP</span>
+                    <span class="asset-name mono">16 Oct 18:40</span>
+                  </div>
+                </td>
+                <td><span class="side-badge sell">Sell</span></td>
+                <td class="align-right tabular-nums mono">400.0</td>
+                <td class="align-right tabular-nums mono">$0.6310</td>
+                <td class="align-right"><span class="status-pill filled">Filled</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="asset-names">
+                    <span class="asset-symbol">SOL</span>
+                    <span class="asset-name mono">14 Oct 11:05</span>
+                  </div>
+                </td>
+                <td><span class="side-badge buy">Buy</span></td>
+                <td class="align-right tabular-nums mono">5.200</td>
+                <td class="align-right tabular-nums mono">$151.80</td>
+                <td class="align-right"><span class="status-pill filled">Filled</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- 5. INSTITUTIONAL FINANCIAL COLOPHON FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-top-row">
+        <div class="footer-brand-lockup">
+          <span class="footer-brand-title">Northline Markets Direct Spot Workspace</span>
+          <span class="account-type-tag">Build 26.10-SP</span>
+        </div>
+        <div class="footer-nav">
+          <a href="index.html">Overview</a>
+          <a href="markets.html">Markets</a>
+          <a href="trade.html">Trade</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="activity.html">Activity</a>
+        </div>
+      </div>
+      <div class="footer-meta-row">
+        <div class="footer-disclosure">
+          Simulated market environment for interface demonstration only. All quotes, asset valuations, trade executions, order histories, and ledger metrics are illustrative representations. No connection to live exchange order books, matching engines, or bank settlements.
+        </div>
+        <div class="footer-telemetry">
+          CLEARING: T+0 DIRECT &middot; ENGINE: 0.8MS &middot; 19 OCT 2026 14:22 UTC
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
