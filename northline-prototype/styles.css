@@ -1807,3 +1807,7 @@ ul, ol {
 }
 
 /* 19. RESPONSIVE MEDIA QUERIES */
+@media (max-width: 1200px) {
+  .delta-trading-grid {
+    grid-template-columns: minmax(0, 62%) minmax(320px, 38%);
+  }
