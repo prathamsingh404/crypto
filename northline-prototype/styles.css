@@ -1897,3 +1897,7 @@ ul, ol {
 
   .allocation-row-item {
     grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .footer-meta-row {
