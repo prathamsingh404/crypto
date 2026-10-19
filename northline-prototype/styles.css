@@ -1837,3 +1837,7 @@ ul, ol {
   }
 }
 
+@media (max-width: 768px) {
+  .header-container {
+    padding: 8px 12px;
+    flex-wrap: wrap;
