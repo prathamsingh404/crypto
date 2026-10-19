@@ -1890,3 +1890,6 @@ ul, ol {
   .contract-metrics-row {
     border-left: none;
     padding-left: 0;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
