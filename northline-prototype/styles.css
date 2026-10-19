@@ -1729,3 +1729,6 @@ ul, ol {
 
 /* 18. FOOTER */
 .site-footer {
+  border-top: 1px solid var(--border);
+  background-color: #0b0e0c;
+  padding: 20px 16px;
