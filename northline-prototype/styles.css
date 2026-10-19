@@ -1774,3 +1774,6 @@ ul, ol {
   gap: 16px;
   font-size: 12px;
 }
+
+.footer-nav a {
+  color: var(--text-secondary);
