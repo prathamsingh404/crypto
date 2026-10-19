@@ -1822,3 +1822,7 @@ ul, ol {
   .delta-trading-grid {
     grid-template-columns: 1fr;
   }
+
+  .account-ledger-bar {
+    grid-template-columns: 1fr;
+  }
