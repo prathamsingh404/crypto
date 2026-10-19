@@ -1777,3 +1777,7 @@ ul, ol {
 
 .footer-nav a {
   color: var(--text-secondary);
+  transition: color var(--trans-fast);
+}
+
+.footer-nav a:hover {
