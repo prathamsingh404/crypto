@@ -1718,3 +1718,6 @@ ul, ol {
 }
 
 .filter-badge-counter {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-muted);
