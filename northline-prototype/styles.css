@@ -1725,3 +1725,7 @@ ul, ol {
   border: 1px solid var(--border);
   padding: 3px 6px;
   border-radius: var(--radius-xs);
+}
+
+/* 18. FOOTER */
+.site-footer {
