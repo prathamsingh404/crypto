@@ -1833,3 +1833,7 @@ ul, ol {
   }
 
   .ledger-bay:last-child {
+    border-bottom: none;
+  }
+}
+
