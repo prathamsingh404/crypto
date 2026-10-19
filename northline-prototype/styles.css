@@ -1830,3 +1830,6 @@ ul, ol {
   .ledger-bay {
     border-right: none;
     border-bottom: 1px solid var(--border);
+  }
+
+  .ledger-bay:last-child {
