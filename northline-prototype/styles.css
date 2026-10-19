@@ -1755,3 +1755,7 @@ ul, ol {
 
 .footer-brand-lockup {
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
