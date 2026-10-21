@@ -1,0 +1,33 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/northline-prototype/index.html",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/styles.css",
+      "destination": "/northline-prototype/styles.css"
+    },
+    {
+      "source": "/trade",
+      "destination": "/northline-prototype/trade.html"
+    },
+    {
+      "source": "/markets",
+      "destination": "/northline-prototype/markets.html"
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/northline-prototype/portfolio.html"
+    },
+    {
+      "source": "/activity",
+      "destination": "/northline-prototype/activity.html"
+    }
+  ]
+}
